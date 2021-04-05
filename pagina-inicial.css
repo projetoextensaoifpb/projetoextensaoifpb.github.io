@@ -65,6 +65,8 @@
 /*CORPO*/
 .covid img {
 	height: 70px;
+	object-fit: cover;
+	object-position: center;
 }
 
 .carousel-item img {
