@@ -110,6 +110,11 @@
 	margin-left: 15%;
 	margin-right: 15%;
 	}
+	
+	.logo-pag {
+		padding-top: 2%;
+		width:80%;
+	}
 
 	.secao-borda {
 	border-bottom: 3px solid #017A06;
