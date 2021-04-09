@@ -1,0 +1,193 @@
+/*FORMATAÇÕES GERAIS*/
+.espacamento {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.alinhamento-centro {
+	text-align: center;
+	align-content: center;
+}
+
+.alinhamento-justificado {
+	text-align: justify;
+}
+
+.alinhamento-esquerda {
+	text-align: left;
+}
+
+.alinhamento-direita {
+	text-align: right;
+}
+
+/*tamanhos de fonte*/
+.fonte-titulo {
+	font-size: 25px;
+}
+
+.fonte-corpo {
+	font-size: 18px;
+}
+
+/*CABEÇALHO*/
+.header{
+	text-align: center;
+	background-color: #017A06;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	color: white;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
+/*MENU*/
+.navbar {
+	margin: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.nav-item a {
+	color: white;
+	font-size: 1.4em;
+}
+
+/*SEÇÃO*/
+.secao {
+	color: #363636;
+	font-size: 23px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.secao-borda {
+	border-bottom: 3px solid #017A06;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*CORPO*/
+.espacamento h3 {
+	font-size: 18px;
+	padding-left: 16%;
+}
+
+.espacamento p {
+	font-size: 16px;
+	padding-left: 15%;
+}
+
+.espacamento span {
+	color: gray;
+}
+
+.aaa p {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.conteudo-esquerda {
+	float: left;
+}
+
+.conteudo-esquerda img {
+	float: left;
+}
+
+.img-tam-padrao img {
+	width: 100px;
+	height: 100px;
+}
+
+.img-tam-padrao p {
+	padding-left: 30%;
+}
+
+.img-tam-png img {
+	width: 70px;
+	height: 70px;
+}
+
+.img-tam-png h3, p {
+	padding-left: 30%;
+}
+
+.img-tam-png  p{
+	padding-left: 30%;
+}
+
+/*FOOTER*/
+.footer {
+	margin-top: 3em;
+	background-color: #DCDCDC;
+	height: 32em;
+}
+
+.footer img {
+	padding-top: 4em;
+	align-content: center;
+}
+
+.footer h5 {
+	text-align: center;
+}
+
+.footer h6 {
+	text-align: center;
+}
+
+/*FORMATAÇÕES GERAIS*/
+@media screen and (min-width: 780px) {
+	.espacamento {
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+
+	.secao-borda {
+	border-bottom: 3px solid #017A06;
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+
+	.aaa p {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	.img-tam-padrao img {
+	width: 150px;
+	height: 150px;
+	}
+
+	.img-tam-padrao p {
+	padding-left: 5%;
+	}
+
+	.img-tam-png {
+		width: 80%;
+		height: 190px;
+	}
+
+	.img-tam-png img{
+		width: 123px;
+		height: 110px;
+		padding-left: 15px;
+	}
+
+	.img-tam-png p, h3 {
+	padding-left: 15%;
+	}
+
+	.img-tam-png h3 {
+		padding-left: 15%;
+	}
+
+	.conteudo-esquerda {
+		width: 80%;
+	}
+}
